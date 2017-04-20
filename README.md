@@ -45,7 +45,7 @@ haproxy_config_defaults '' do
           client: '5000ms',
           server: '5000ms'
 end
-```ruby
+```
 
 ```ruby
 haproxy_frontend 'http-in' do
